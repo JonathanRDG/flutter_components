@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_components/src/pages/home_temp.dart';
+import 'package:flutter_components/src/pages/home_page.dart';
+
 
     void main() => runApp(MyApp());
 
@@ -10,7 +11,7 @@ import 'package:flutter_components/src/pages/home_temp.dart';
       return MaterialApp(
         title: 'Componentes Flutter',
         debugShowCheckedModeBanner: false,
-        home: HomePageTemp()
+        home: Homepage(),
       );
     }
   }
